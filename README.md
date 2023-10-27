@@ -6,6 +6,9 @@
 
 Quizzical is a fun and engaging Quiz App built using React. Test your knowledge by selecting quiz categories and difficulty levels, fetching quiz questions from an external API, and answering a set of multiple-choice questions. Whether you're a trivia enthusiast or just looking for a fun way to challenge yourself, Quizzical is an entertaining choice for testing your knowledge.
 
+#Live
+![Live Site](https://quizzical-app-dhnozr.netlify.app/)
+
 ## Features
 
 - Choose from a variety of quiz categories.
