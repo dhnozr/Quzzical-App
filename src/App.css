@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@700&display=swap');
+
+.load-data {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/public/blob_2-0edef0ec.svg),
+    url(/public/blob_3-f74acdf4.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top right, bottom left;
+  background-color: #2b283a;
+  color: rgb(218 223 255);
+  text-align: center;
+}
+
+.load-data-title {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(218 223 255);
+}
+
+.category-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b283a;
+  background-image: url(/blob_2-0edef0ec.svg), url(/blob_3-f74acdf4.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top right, bottom left;
+  padding: 0.5rem;
+  font-family: 'Inter', sans-serif;
+}
+.category-form {
+  display: grid;
+  max-width: 600px;
+  width: 100%;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.category-form select {
+  max-width: 100%;
+  width: 100%;
+  padding: 5px 15px;
+  font-size: 0.75rem;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(218 223 255);
+}
+
+.category-form label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
+  color: rgb(218 223 255);
+}
+
+.category-form button {
+  padding: 8px;
+  border: none;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  font-size: 0.75rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  max-width: 200px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 400px) {
+  .load-data {
+    background-size: 50%;
+  }
+  .category-wrapper {
+    background-size: 50%;
+  }
+  .category-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .category-form button {
+    grid-column: 1/-1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .load-data {
+    background-size: 40%;
+  }
+
+  .category-wrapper {
+    background-size: 40%;
+  }
+
+  .category-form label {
+    font-size: 0.9rem;
+  }
+
+  .category-form select {
+    font-size: 0.9rem;
+    color: #0f1422;
+  }
+
+  .category-form button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .load-data {
+    background-size: 30%;
+  }
+
+  .category-wrapper {
+    background-size: 30%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .category-form button {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .load-data-title {
+    font-size: 2rem;
+  }
+}
