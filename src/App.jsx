@@ -25,7 +25,7 @@ function App() {
 
   setTimeout(() => {
     setFirstLoad(false);
-  }, 4000);
+  }, 2000);
 
   useEffect(() => {
     fetch('https://opentdb.com/api_category.php')
@@ -55,7 +55,7 @@ function App() {
 
     setTimeout(() => {
       setFirstLoad(false);
-    }, 3000);
+    }, 2000);
   }
 
   const inputElements = (
@@ -91,7 +91,7 @@ function App() {
 
     setTimeout(() => {
       setFirstLoad(false);
-    }, 4000);
+    }, 2000);
   }
 
   return (
