@@ -8,7 +8,7 @@ Quizzical is a fun and engaging Quiz App built using React. Test your knowledge 
 
 ## Live
 
-[Live Site](https://quizzical-app-dhnozr.netlify.app/)
+## [Live Site](https://quizzical-app-dhnozr.netlify.app/)
 
 ## Features
 
